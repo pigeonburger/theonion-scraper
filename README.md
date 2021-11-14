@@ -2,6 +2,8 @@
 
 Scrapes all articles and their headlines from the satirical news website https://www.theonion.com
 
+*Also see [Clickhole Article Scraper](https://github.com/pigeonburger/clickhole-scraper)*
+
 Requirements:
 
 - Python 3.6 or higher
