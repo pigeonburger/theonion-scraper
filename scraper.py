@@ -23,7 +23,6 @@ def parse_sitemap():
         t.start()
         time.sleep(0.1)
         
-
         print(f'Found {len(urls)} articles', end='\r')
     print()
     return urls
@@ -59,7 +58,6 @@ def get_article_content(url):
 def main():
     global urls
     urls = parse_sitemap()
-
     for url in urls:
         t = Thread(target=get_article_content, args=(url,))
         t.daemon = True
